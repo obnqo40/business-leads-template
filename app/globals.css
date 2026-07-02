@@ -1,0 +1,99 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-bg: #f8faf7;
+  --color-surface: #ffffff;
+  --color-ink: #111827;
+  --color-muted: #5f6b76;
+  --color-primary: #176b4d;
+  --color-primary-contrast: #ffffff;
+  --color-accent: #c88a39;
+  --color-border: #dfe7df;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--color-bg);
+  color: var(--color-ink);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+[id] {
+  scroll-margin-top: 5rem;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+@layer components {
+  .container-page {
+    @apply mx-auto w-full max-w-6xl px-4 sm:px-6 lg:px-8;
+  }
+
+  .section-y {
+    @apply py-14 sm:py-16 lg:py-20;
+  }
+
+  .section-title {
+    @apply text-2xl font-semibold leading-tight text-[var(--color-ink)] sm:text-3xl;
+  }
+
+  .section-kicker {
+    @apply text-xs font-semibold uppercase text-[var(--color-primary)];
+  }
+
+  .section-copy {
+    @apply mt-3 max-w-2xl text-base leading-7 text-[var(--color-muted)];
+  }
+
+  .section-heading {
+    @apply flex flex-col justify-between gap-4 sm:flex-row sm:items-end;
+  }
+
+  .btn-primary {
+    @apply inline-flex min-h-11 items-center justify-center rounded-md bg-[var(--color-primary)] px-5 py-3 text-sm font-semibold text-[var(--color-primary-contrast)] transition hover:brightness-95 focus:outline-none focus:ring-2 focus:ring-[var(--color-primary)] focus:ring-offset-2;
+  }
+
+  .btn-secondary {
+    @apply inline-flex min-h-11 items-center justify-center rounded-md border border-[var(--color-border)] bg-[var(--color-surface)] px-5 py-3 text-sm font-semibold text-[var(--color-ink)] transition hover:border-[var(--color-primary)] hover:text-[var(--color-primary)] focus:outline-none focus:ring-2 focus:ring-[var(--color-primary)] focus:ring-offset-2;
+  }
+
+  .content-card {
+    @apply rounded-lg border border-[var(--color-border)] bg-[var(--color-surface)] p-5 shadow-soft;
+  }
+
+  .content-card-hover {
+    @apply transition hover:-translate-y-0.5 hover:border-[var(--color-primary)] hover:shadow-soft;
+  }
+
+  .field-label {
+    @apply text-sm font-medium text-[var(--color-ink)];
+  }
+
+  .field-control {
+    @apply mt-2 w-full rounded-md border border-[var(--color-border)] bg-white px-3 py-3 text-sm text-[var(--color-ink)] outline-none transition placeholder:text-slate-400 focus:border-[var(--color-primary)] focus:ring-2 focus:ring-[var(--color-primary)];
+  }
+
+  .field-error {
+    @apply mt-1 text-sm text-red-700;
+  }
+}
