@@ -1,8 +1,15 @@
-# Коммерческий сайт-визитка с приемом заявок
+# Business Leads
+
+**Конфигурируемый сайт для малого бизнеса с приёмом заявок.**
 
 Готовый MVP-шаблон для малого бизнеса: адаптивный лендинг, форма заявки, backend endpoint и доставка лидов владельцу в Telegram, MAX, email или Google Sheets.
 
 Демо-ниша: барбершоп Fresh Cut. Эту же структуру можно адаптировать под мастера маникюра, репетитора, тренера, автосервис, кофейню, доставку, локальный магазин или сервисную услугу.
+
+
+[Демо ↗](https://business-leads-template.vercel.app/) · [Разбор архитектуры](https://github.com/obnqo40/obnqo40/blob/main/docs/business-leads.md) · [Портфолио автора](https://github.com/obnqo40)
+
+![Главная страница демонстрационного сайта Fresh Cut](https://raw.githubusercontent.com/obnqo40/obnqo40/main/assets/business-leads.jpg)
 
 ## Что входит
 
