@@ -6,8 +6,7 @@
 
 Демо-ниша: барбершоп Fresh Cut. Эту же структуру можно адаптировать под мастера маникюра, репетитора, тренера, автосервис, кофейню, доставку, локальный магазин или сервисную услугу.
 
-
-[Демо ↗](https://business-leads-template.vercel.app/) · [Разбор архитектуры](https://github.com/obnqo40/obnqo40/blob/main/docs/business-leads.md) · [Портфолио автора](https://github.com/obnqo40)
+**[Открыть демо ↗](https://business-leads-template.vercel.app/)** · [Разбор архитектуры](https://github.com/obnqo40/obnqo40/blob/main/docs/business-leads.md) · [Маршрут по коду](https://github.com/obnqo40/obnqo40/blob/main/docs/code-tour.md#1-как-заявка-проходит-через-сервер) · [Портфолио автора](https://github.com/obnqo40)
 
 ![Главная страница демонстрационного сайта Fresh Cut](https://raw.githubusercontent.com/obnqo40/obnqo40/main/assets/business-leads.jpg)
 
